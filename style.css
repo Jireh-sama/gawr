@@ -40,8 +40,9 @@ nav img {
 
 .hero-image {
   height: auto;
-  width: 500px;
+  width: 350px;
   object-fit: cover;
+  padding: 0 .5rem;
 }
 
 .hero-desc {
@@ -156,6 +157,20 @@ model-viewer {
   background-repeat: no-repeat;
   background-size: cover;
   aspect-ratio: 900 / 600;
+}
+/* ----------------FOOTER SECTION---------------- */
+footer {
+  padding: .5rem;
+  background-color: var(--primary);
+}
+.leader {
+  text-align: center;
+  font-weight: 600;
+}
+
+.members {
+  text-align: center;
+  column-count: 2;
 }
 
 @media (min-width: 641px) {
